@@ -15,3 +15,14 @@ But, the main feature of this package is...
     * To land, when x > 0.95 say, I initiate the landing procedure and reset the jump data. And that's it ! 
     
 Video at : https://youtu.be/fSLNErphs1g
+
+# 27/07 Update: 
+
+For this last update, I've been fixing bugs and adding a few features. In particular, I introduced the enemies, with basic move to target, move around when in range, ability to launch an attack and KO feature using a dissolve shader. 
+Enemies are controlled by the `BadassBehaviour` script. My goal is to use this as a replacement of the `InputsModule` script, so that enemies can also leverage all the functions already available in the `MoveModule` and `FightModule`.   
+
+I'm now entering a specific period I particularly hate in development, which is the moment I do not know what to do next. I believe one of the reason I'm getting lost is the fact that the current work up to now is very general. So now, I'm gonna use this as a base to jump start other project. I've made my best to write clean, reusable code that follows the same logic.
+Initially, my goal was to remake the prison escape scene from Uncharted 4. But I might change my mind. 
+
+Package at: https://drive.google.com/open?id=1ZyMLFXhjVKE9TqNWnwNxCh5k3KLcH5Fr
+Video at: https://youtu.be/PvxsoNjmSNM
